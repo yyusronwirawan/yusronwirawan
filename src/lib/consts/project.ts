@@ -1,0 +1,168 @@
+import { Project } from '../types';
+import { getStack } from './stack';
+
+export const MY_PROJECTS: Project[] = [
+  {
+    cname: 'radio-yasmaga',
+    title: 'Radio Yasmaga FM',
+    description: 'Yasmaga Radio Streaming is a modern online radio platform built with Laravel and React.js, delivering seamless, high-quality audio streaming for a global audience. Designed for an immersive listening experience, it offers real-time broadcasts, dynamic playlists, and interactive features. With a sleek and responsive interface powered by Tailwind CSS, Yasmaga ensures smooth navigation across all devices. Whether you tuning in for music, news, or exclusive shows, Yasmaga brings you closer to the content you love—anytime, anywhere. 🚀🎧',
+    isFeatured: true,
+    demoUrl: 'https://yasmaga.com',
+    thumbnailUrl: '/images/yasmaga.png',
+    imageUrls: [
+      '/images/yasmaga.png',
+
+    ],
+    stacks: [
+      getStack('Laravel'),
+      getStack('React.js'),
+      getStack('Chakra UI'),
+      getStack('TailwindCSS'),
+      getStack('Postman'),
+      getStack('MySQL'),
+    ],
+  },
+  {
+    cname: 'sgi-holding',
+    title: 'SGI Holding Company',
+    description: 'SGI Holding Company is a cutting-edge digital platform powered by Laravel and React.js, designed to streamline business operations and enhance corporate efficiency. With a modern, scalable architecture, it offers seamless management of assets, subsidiaries, and financial insights in real time. The intuitive Tailwind CSS-driven interface ensures a smooth user experience across all devices. Whether for strategic decision-making or operational control, SGI Holding Company empowers businesses with the tools they need to thrive in a dynamic marketplace. 🚀📊',
+    isFeatured: true,
+    demoUrl: 'https://project.sgiofficial.com',
+    thumbnailUrl: '/images/sgi.png',
+    imageUrls: ['/images/sgi.png'],
+    stacks: [
+      getStack('Laravel'),
+      getStack('React.js'),
+      getStack('TailwindCSS'),
+      getStack('Postman'),
+      getStack('MySQL'),
+    ],
+  },
+  {
+    cname: 'biopyshio',
+    title: 'Biopyshio',
+    description: 'Biophysio Queue System is a smart and efficient patient queue management platform built with Laravel and React.js, designed to streamline appointments and reduce waiting times. With real-time queue tracking, automated scheduling, and a user-friendly interface powered by Tailwind CSS, it enhances the patient experience and optimizes clinic operations. Whether booking remotely or checking in on-site, Biophysio ensures a smooth, hassle-free process for both patients and healthcare providers. 🚀💡',
+    isFeatured: true,
+    thumbnailUrl: '/images/antrian.png',
+    imageUrls: ['/images/antrian.png'],
+    stacks: [
+      getStack('Laravel'),
+      getStack('Vite'),
+      getStack('Postman'),
+      getStack('MySQL'),
+    ],
+  },
+  {
+    cname: 'signature',
+    title: 'Digital Signature Using ECDSA',
+    description: 'Digital Signature Using ECDSA is a secure and efficient cryptographic signing platform built with Laravel and React.js, leveraging Elliptic Curve Digital Signature Algorithm (ECDSA) for high-assurance digital authentication. It ensures data integrity, non-repudiation, and secure transactions with cutting-edge encryption. Featuring a sleek, user-friendly interface powered by Tailwind CSS, it enables seamless document signing and verification. Whether for legal, financial, or enterprise use, this solution guarantees trust and security in the digital era. 🔒⚡',
+    isFeatured: true,
+    thumbnailUrl: '/images/ecdsa.png',
+    imageUrls: ['/images/ecdsa.png'],
+    stacks: [
+      getStack('Laravel'),
+      getStack('TypeScript'),
+      getStack('Shadcn UI'),
+      getStack('Python'),
+      getStack('Postman'),
+      getStack('MySQL'),
+    ],
+  },
+  {
+    cname: 'siakad',
+    title: 'Siakad App',
+    description: 'SIAKAD (Academic Information System) is a powerful and modern education management platform built with Laravel and React.js, designed to streamline academic administration. From student enrollment and course management to grading and attendance tracking, it offers a seamless digital experience. With a responsive Tailwind CSS-powered interface, SIAKAD ensures easy access for students, teachers, and administrators across all devices. Empowering institutions with automation and real-time data, it revolutionizes academic operations for a smarter future. 🎓🚀',
+    isFeatured: false,
+    thumbnailUrl: '/images/siakad.png',
+    imageUrls: ['/images/siakad.png'],
+    stacks: [
+      getStack('Laravel'),
+      getStack('React.js'),
+      getStack('TailwindCSS'),
+      getStack('Postman'),
+      getStack('MySQL'),
+    ],
+  },
+  {
+    cname: 'warehouse',
+    title: 'Warehouse Management',
+    description: 'Warehouse Management System is a smart and efficient inventory control platform built with Laravel and React.js, designed to optimize warehouse operations. With real-time stock tracking, automated order processing, and seamless logistics integration, it enhances accuracy and efficiency. Powered by Tailwind CSS, the intuitive interface ensures smooth navigation across all devices. Whether managing shipments, monitoring inventory levels, or streamlining workflows, this system empowers businesses with smarter warehouse management. 📦🚀',
+    isFeatured: false,
+    thumbnailUrl: '/images/inventori.png',
+    imageUrls: [
+      '/images/inventori.png',
+    ],
+    stacks: [
+      getStack('Laravel'),
+      getStack('React.js'),
+      getStack('TailwindCSS'),
+      getStack('Postman'),
+      getStack('MySQL'),
+    ],
+  },
+  {
+    cname: 'tracer-study',
+    title: 'Tracer Study',
+    description: 'Tracer Study System is a modern alumni tracking platform built with Laravel, designed to monitor graduate career progress and institutional impact. It enables seamless data collection, interactive surveys, and real-time analytics to enhance educational outcomes. With a sleek, responsive interface powered by Tailwind CSS, it provides universities and institutions with valuable insights into alumni employment trends and professional growth. Empower education with data-driven decision-making. 🎓📊🚀',
+    isFeatured: false,
+    thumbnailUrl: '/images/tracerstudy.png',
+    imageUrls: [
+      '/images/tracerstudy.png',
+    ],
+    stacks: [
+      getStack('Laravel'),
+      getStack('Vite'),
+      getStack('Postman'),
+      getStack('MySQL'),
+    ],
+  },
+  {
+    cname: 'e-learning',
+    title: 'E-Learning',
+    description: 'Smart Learning Platform is an innovative e-learning system built with Laravel and React.js, designed to enhance digital education with interactive courses, real-time assessments, and seamless content management. Featuring a sleek, user-friendly interface powered by Tailwind CSS, it provides a dynamic learning experience accessible anytime, anywhere. Whether for schools, universities, or corporate training, this platform empowers learners and educators with smart, efficient, and engaging education tools. 🎓📚🚀',
+    isFeatured: false,
+    thumbnailUrl: '/images/learning.png',
+    imageUrls: [
+      '/images/learning.png',
+    ],
+    stacks: [
+      getStack('Laravel'),
+      getStack('Vite'),
+      getStack('Postman'),
+      getStack('MySQL'),
+    ],
+  },
+  {
+  cname: 'wireless-sensor',
+  title: 'Wireless Sensor Network for Greenhouse Climate Control',
+  description: 'Wireless Sensor Network for Greenhouse Climate Control is an innovative IoT system designed to automatically monitor and regulate the climate in a greenhouse. The system uses a combination of Arduino Nano-based sensor nodes, Arduino Mega-based sink nodes, and an ESP32 gateway to transmit real-time temperature and humidity data to a web-based monitoring server. With this approach, growers can optimize crop growing conditions, improve energy efficiency, and remotely monitor the greenhouse environment accurately and reliably. 🌱🌡️📶',
+  isFeatured: false,
+  thumbnailUrl: '/images/iot-wsn.png',
+  imageUrls: [
+    '/images/iot-wsn.png',
+  ],
+  stacks: [
+    getStack('PHP'),
+    getStack('Material UI'),
+    getStack('TailwindCSS'),
+    getStack('MySQL'),
+  ],
+},
+{
+  cname: 'edutrans',
+  title: 'Edutrans Institute',
+  description: 'Edutrans Institute is a web-based education platform that provides training services and certified courses in various fields, ranging from technology, business, to self-development. Built with Laravel and React.js, this platform offers an intuitive interface, flexible content management system, and real-time evaluation features. With a modern design using Tailwind CSS, Edutrans provides an interactive and accessible learning experience, suitable for both individuals and corporate training. 🎓💼🌐',
+  isFeatured: false,
+  thumbnailUrl: '/images/edutrans.png',
+  imageUrls: [
+    '/images/edutrans.png',
+  ],
+  stacks: [
+    getStack('Laravel'),
+    getStack('Vite'),
+    getStack('TypeScript'),
+    getStack('Shadcn UI'),
+    getStack('MySQL'),
+  ],
+},
+];
